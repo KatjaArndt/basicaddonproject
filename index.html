@@ -16,6 +16,9 @@
         background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
         margin: 50px;
       }
+      a {
+        color: black;
+      }
       img {
         width: 100%;
       }
@@ -36,12 +39,12 @@
         margin-top: 30px;
         font-size: 18px;
       }
-      .btn-light {
+      .btn-secondary {
         margin-top: 30px;
         transition: all 150ms ease-in-out;
         border: none;
       }
-      .btn-light:hover {
+      .btn-secondary:hover {
         background-color: rgb(87, 196, 171);
       }
       .btn-dark {
@@ -59,6 +62,10 @@
       .bouldern-wikipedia:hover {
         filter: grayscale(100%);
         transform: scale(1.2);
+      }
+      .fotocredits {
+        font-size: 0.6em;
+        color: black;
       }
       .grid {
         margin: 20px 0px;
@@ -104,11 +111,11 @@
             alt=""
           />
           <img
-            src="https://images.unsplash.com/photo-1727786667657-8c47898a1ba1?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1698352709078-7dde09852142?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <img
-            src="https://images.unsplash.com/photo-1689775884478-9ed19b79d659?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1689775885105-06d9a631d0bd?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <img
@@ -127,23 +134,56 @@
           Beim Bouldern werden nur einige wenige Kletterzüge ausgeführt, die
           Herausforderung liegt in der Technik, der Kreativität und im nötigen
           Kraftaufwand.
-          <br /><br />
+          <br />
           <em> Meine Definition: </em>
           Fitness, Spaß und mentale Stärke in einem. So viele positive benefits
           auf einmal gibt es für mich nur selten in einer Sportart. Nur die
           Höhenangst muss man überwinden.
         </p>
         <div class="d-flex justify-content-center">
-          <button class="btn btn-light">Lerne bouldern</button>
+          <button class="btn btn-secondary">Lerne bouldern</button>
         </div>
       </div>
     </div>
+
+    <footer>
+      <em
+        >Hinweis: dies ist eine Demoseite. Die Texte und Bilder dienen nur zu
+        Übungszwecken.</em
+      >
+      <br />
+      <br />
+      <div class="fotocredits">
+        Die Bilder stammen aus folgenden Quellen:
+        <br />
+        <a
+          href="https://unsplash.com/de/fotos/eine-person-die-an-der-seite-eines-grossen-felsens-hinaufklettert-E76-vNiW3ps"
+          >unsplash
+        </a>
+        von <a href="https://unsplash.com/de/@far_out">@far_out </a>
+        <br />
+        <a
+          href="https://unsplash.com/de/fotos/ein-paar-wanderschuhe-die-auf-einem-felsen-sitzen-zEuRZsSaktA"
+          >unsplash
+        </a>
+        von <a href="https://unsplash.com/de/@koreandirtbag">@koreandirtbag</a>
+
+        <a
+          href="https://unsplash.com/de/fotos/ein-junger-mann-klettert-an-einer-kletterwand-WvleCyCQE0o"
+          >unsplash
+        </a>
+        von <a href="https://unsplash.com/de/@tofanteo">@tofanteo</a>
+        <br />
+        <br />
+      </div>
+      <p>
+        coded by
+        <a href="https://github.com/KatjaArndt/basicaddonproject"
+          >Katja Arndt</a
+        >
+      </p>
+    </footer>
   </body>
-  <footer>
-    <em>Hinweis: dies ist eine Demoseite.</em>
-    <br />
-    coded by Katja Arndt
-  </footer>
   <script>
     function changeTheme() {
       let body = document.querySelector("body");
